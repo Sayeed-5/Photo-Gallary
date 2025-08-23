@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CollegeTips Photo Gallery</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h2>📸 CollegeTips Gallery</h2>
+        </div>
+        <div class="filters">
+            <ul class="nav-links">
+                <li><button data-filter="all">All</button></li>
+                <li><button data-filter="team">🤝 Team Vibes</button></li>
+                <li><button data-filter="creative">🎨 Creative Campaigns</button></li>
+                <li><button data-filter="fun">🥳 Work Hard, Play Hard</button></li>
+                <li><button data-filter="bts">🥳 Celebrations</button></li>
+            </ul>
+        </div>
+    </nav>
+
+  <main>
+    <div class="gallery">
+      <!-- Sample Image Cards -->
+      <div class="image-card team">
+        <img src="images/header-image-2.webp" alt="Team Vibe"/>
+        <div class="caption">Team Vibes</div>
+      </div>
+
+      <div class="image-card creative">
+        <img src="images/header-image-1.webp" alt="Creative"/>
+        <div class="caption">Creative Campaigns</div>
+      </div>
+
+      <div class="image-card fun">
+        <img src="images/office-party.webp" alt="Fun Moment"/>
+        <div class="caption">Work Hard, Play Hard</div>
+      </div>
+
+      <div class="image-card bts">
+        <img src="images/wedding.webp" alt="BTS"/>
+        <div class="caption">Wedding</div>
+      </div>
+
+      <div class="image-card bts">
+        <img src="images/birthday.webp" alt="BTS"/>
+        <div class="caption">Birthday</div>
+      </div>
+
+      <div class="image-card bts">
+        <img src="images/night-party.webp" alt="BTS"/>
+        <div class="caption">Night Party</div>
+      </div>
+      <!-- Add more images similarly -->
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <img id="lightbox-img" src="" alt="Full View"/>
+  </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 All rights reserved| Developed by <a href="https://www.linkedin.com/in/sayed-ahemmad-72baa5274/">Sayed Ahemmad</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
 
